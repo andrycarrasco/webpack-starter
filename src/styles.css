@@ -1,5 +1,9 @@
 /* Para el h1 styles */
-html,body{
+html,body,li{
     background-color: powderblue;
 
+}
+li{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
