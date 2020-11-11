@@ -9,7 +9,7 @@ module.exports = {
     // entry: './src/index.js',
     output: {
         filename: 'main.[contentHash].js',
-        path: path.join(__dirname,'dist')
+        path: path.join(__dirname,'docs')
     },
     optimization: {
         minimizer: [new OptimizeCssAssetsPlugin()],
